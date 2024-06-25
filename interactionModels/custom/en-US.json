@@ -1,0 +1,44 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "dato",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "GradosIntent",
+          "samples": [
+            "a cuento equivale {dato} grados farenheit a celsius",
+            "cuanto es {dato} grados farenheit a celsius",
+            "convierte {dato} grados farenheit a celsius"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "conversor celsius"
+    }
+  }
+}
