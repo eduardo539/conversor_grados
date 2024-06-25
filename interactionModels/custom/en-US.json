@@ -1,0 +1,57 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "dato",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "GradosIntent",
+          "samples": [
+            "convierte {dato} grados farenheit a celsius",
+            "cuanto es {dato} grados farenheit a celsius",
+            "a cuento equivale {dato} grados farenheit a celsius"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "conversor celsius"
+    }
+  }
+}
